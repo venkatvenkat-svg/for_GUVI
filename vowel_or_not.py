@@ -6,6 +6,6 @@ a=ch.lower()
 if a in vowels:
     print("Vowel")
 elif(a in consonants):
-    print("Consnant")
+    print("Consonant")
 else:
     print("invalid")
