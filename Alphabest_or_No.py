@@ -7,7 +7,7 @@ b=ch.lower()
 if ch in alpha:
     a=ord(b)
     if a in range(a,a+25):
-        print("Alphbet")
+        print("Alphabet")
     else:
         print("No")
 else:
