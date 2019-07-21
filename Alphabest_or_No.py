@@ -6,7 +6,6 @@ ch=input() #assign the input to "ch"
 b=ch.lower()
 if ch in alpha:
     a=ord(b)
-    print(a)
     if a in range(a,a+25):
         print("Alphbet")
     else:
