@@ -1,9 +1,12 @@
 #Biggest of three numbers
 a,b,c =input().split()
+x=int(a)
+y=int(b)
+z=int(c)
 
-if (a>b and a>c):
-    print(a)
-elif(b>c):
-    print(b)
+if (x>y and x>z):
+    print(x)
+elif(y>z):
+    print(y)
 else:
-    print(c)
+    print(z)
